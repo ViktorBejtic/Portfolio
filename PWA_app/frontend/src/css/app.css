@@ -1,0 +1,30 @@
+/* app global css */
+:root{
+    --q-primary: #c48f00;
+    --q-secondary: #26A69A;
+    --q-accent: #9C27B0;
+    --q-positive: #21BA45;
+    --q-negative: #C10015;
+    --q-info: #31CCEC;
+    --q-warning: #F2C037;
+    --q-dark: #1d1d1d;
+    --q-dark-page: #181A1B;
+    --grey: #9E9E9E;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.q-page{
+    background-color: var(--q-bcg);
+    color: white;
+}
+
+.q-page-container{
+    padding: 0px !important;
+}
+
+.full-window{
+    min-height: 100vh;
+}

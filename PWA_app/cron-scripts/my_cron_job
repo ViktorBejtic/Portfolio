@@ -1,0 +1,1 @@
+* * * * * root PGPASSWORD=vpwajecool psql -h db -U admin -d db_vpwa -c "SELECT 1;" >> /var/log/cron.log 2>&1
